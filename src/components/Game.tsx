@@ -88,7 +88,7 @@ const Game = () => {
     return <div>
         <h3 style={messageStyle} >{message}</h3>
         <Board value={board} onClick={handleClick} />
-        <button style={buttonStyle} onClick={restartButton}>Restart</button>
+        <button style={buttonStyle} onClick={restartButton}>Replay</button>
     </div>
 };
 
