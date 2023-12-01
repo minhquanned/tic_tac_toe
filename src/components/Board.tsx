@@ -16,5 +16,5 @@ const Board = (props: any) => (
         ))}
     </div>
 );
-
+ 
 export default Board
